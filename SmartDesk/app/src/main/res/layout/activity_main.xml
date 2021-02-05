@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试"
+        android:textSize ="25dp"/>
+
+    <Button
+        android:id="@+id/btnSendSSDPSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接机械臂"
+        android:textSize ="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="机械臂IP："
+        android:textSize ="25dp"/>
+
+    <EditText
+        android:id="@+id/et1_host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="IP"
+        android:textSize ="25dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnSendWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取数据"
+        android:textSize ="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <EditText
+            android:id="@+id/et1_host1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="ID1"
+            android:textSize ="25dp" />
+        <EditText
+            android:id="@+id/et1_host2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:hint="IP2"
+            android:textSize ="25dp" />
+        <EditText
+            android:id="@+id/et1_host3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:hint="ID3"
+            android:textSize ="25dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSendWeb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="写入数据_最大值"
+        android:textSize ="25dp"/>
+
+    <Button
+        android:id="@+id/btnSendWeb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="写入数据_0"
+        android:textSize ="25dp"/>
+
+    <Button
+        android:id="@+id/btnSendWeb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="写入数据_最小值"
+        android:textSize ="25dp"/>
+
+    <SeekBar
+        android:id="@+id/brightness"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv_show_receive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:text="搜寻结果"
+            android:textSize ="20dp"/>
+    </ScrollView>
+
+</LinearLayout>

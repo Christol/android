@@ -1,0 +1,2 @@
+include ':app', ':modbus4android'
+rootProject.name = "My Application"

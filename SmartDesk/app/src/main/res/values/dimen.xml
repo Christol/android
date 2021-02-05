@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Android默认的字体大小-->
+    <!--<dimen name="text_size_small_material">14sp</dimen>-->
+    <!--<dimen name="text_size_medium_material">18sp</dimen>-->
+    <!--<dimen name="text_size_large_material">22sp</dimen>-->
+
+
+    <!--对普通5英寸1080P手机一般是xxhdpi，对比mdpi是3倍，所以这里的字体对应的弄成3倍的数值-->
+    <!--如果是适配ios的750P分辨的话，对应Android的就是xhdpi，那么就要改下面的数值改成2倍的-->
+
+
+    <!--往App的主题加入下面属性-->
+    <!--<item name="android:textAppearance">@style/MyTextAppearance</item>-->
+    <!--<item name="android:textAppearanceInverse">@style/MyTextAppearanceInverse</item>-->
+    <!--<item name="android:textAppearanceSmall">@style/MyTextAppearanceSmall</item>-->
+    <!--<item name="android:textAppearanceMedium">@style/MyTextAppearanceMedium</item>-->
+    <!--<item name="android:textAppearanceLarge">@style/MyTextAppearanceLarge</item>-->
+    <!--<item name="android:textAppearanceSmallInverse">@style/MyTextAppearanceSmallInverse</item>-->
+    <!--<item name="android:textAppearanceMediumInverse">@style/MyTextAppearanceMediumInverse</item>-->
+    <!--<item name="android:textAppearanceLargeInverse">@style/MyTextAppearanceLargeInverse</item>-->
+    <!--<item name="android:textAppearanceButton">@style/MyTextAppearanceButton</item>-->
+    <!--<item name="android:editTextStyle">@style/MyTextAppearanceEditText</item>-->
+
+    <dimen name="station_title_time_text_size">30sp</dimen>
+    <dimen name="station_title_time_marginleft_size">28sp</dimen>
+
+    <!--  加粗字体  -->
+    <dimen name="station_title_text_bold_size">30sp</dimen>
+    <dimen name="station_title_time_margin_bold_size">28sp</dimen>
+
+    <dimen name="free_text_size">30sp</dimen>
+    <dimen name="free_margint_size">10dp</dimen>
+
+    <dimen name="use_title_text_size">30sp</dimen>
+    <dimen name="use_title_marginleft_size">28sp</dimen>
+    <dimen name="use_imageview_marginleft_size">10sp</dimen>
+
+</resources>

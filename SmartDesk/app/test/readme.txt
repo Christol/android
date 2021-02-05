@@ -1,0 +1,1 @@
+打开sign.bat 文件，修改Sensor.apk 为 你需要签名的apk，在output目录下生成签名之后的apk

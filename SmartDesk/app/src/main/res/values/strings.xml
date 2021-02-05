@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">SmartBox</string>
+    <string name="gongnengma_s">功能码：%s</string>
+    <string name="multi_reg_hint">多个数值(0~0xFFFF(65535)),用“,”隔开</string>
+    <string name="multi_coil_hint">多个数值(0或1),用“,”隔开</string>
+
+    <string name="use_date">2020-07-14</string>station_num
+    <string name="use_date_week">星期二</string>
+    <string name="use_date_time">11：08</string>
+
+    <string name="station_num">工位号</string>
+
+    <string name="station_state">工位状态</string>
+    <string name="station_use_state">使用中</string>
+    <string name="station_use_time">9：00AM-10：00AM</string>
+    <string name="station__free_state">空闲</string>
+
+    <string name="station_department">部门</string>
+    <string name="station_department_value">测试部</string>
+
+    <string name="station_title">职位</string>
+    <string name="station_title_value">测试员</string>
+
+    <string name="station_name">名字</string>
+    <string name="station_name_value">Test</string>
+
+    <string name="station_email">邮箱</string>
+    <string name="station_email_value">test@lenovo.com</string>
+
+    <string name="station_phone">手机</string>
+    <string name="station_phone_value">18812345678</string>
+
+    <string name="station_use_welcome">欢迎扫码预定</string>
+
+    <string name="toast_info_server_fail_get_userlist">用户列表为空，</string>
+    <string name="toast_info_server_fail_get_info">服务器得到信息失败</string>
+    <string name="toast_info_usb0_fail">设备查找不到usb0，暂不支持人脸识别</string>
+    <string name="toast_info_net_fail">网络连接失败</string>
+    <string name="toast_info_server_fail">服务器连接失败</string>
+    <string name="toast_info_net_connect_fail">网络得到用户列表信息失败，请检查网络是否可用</string>
+    <string name="toast_info_face_device_fail">人脸设备心跳信息接收失败</string>
+
+    <string name="wsn_connect_fail">连接无线传感器失败</string>
+    <string name="wsn_ip_and_prot">设备IP与端口地址为空</string>
+    <string name="wsn_light">亮度:</string>
+    <string name="wsn_temperature">温度:</string>
+    <string name="wsn_humidity">湿度:</string>
+
+    <string name="led_connect_fail">连接LED灯失败</string>
+
+    <string name="wsn_lift_tabel_connect_fail">发送命令失败，升降台未连接成功</string>
+
+    <string name="modbus_connect_device_success">连接机械臂成功</string>
+    <string name="modbus_connect_device_fail">连接机械臂失败</string>
+
+    <string name="modbus_id1_manual_mode">轴ID1为手动模式</string>
+    <string name="modbus_id1_warning">轴ID1为p202 报警 : </string>
+    <string name="modbus_id2_manual_mode">轴ID2为手动模式</string>
+    <string name="modbus_id2_warning">轴ID2为p202 报警 : </string>
+    <string name="modbus_id3_manual_mode">轴ID3为手动模式</string>
+    <string name="modbus_id3_warning">轴ID3为p202 报警 : </string>
+
+</resources>
